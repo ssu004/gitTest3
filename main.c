@@ -5,7 +5,6 @@ int main(void){
     return 0;
 }
 
-void say_hello(void) {
-    printf("Hello~\n");
-    return;
+void say_hello(int a, int b) {
+    return a+b;
 }
